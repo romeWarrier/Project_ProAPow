@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #00aeff;
+    padding: 50px;
+    text-align: left;
+    height: 150px;
+}
+
+.header img {
+    float: left;
+    margin-top: -25px;
+    width: 20%;
+    height: 190%;
+}
+
+.header form {
+    float: right;
+    display: block;
+    text-align: center;
+    margin: 8px;
+    position: relative;
+    left: -27%;
+}
+
+.header input {
+    text-align: left;
+    padding: 5px;
+    width: 650px;
+    height: 38px;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: #000000;
+}
+
+#LoginButton {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 38px;
+    margin: 8px;
+    float: right;
+    position: relative;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: #000000;
+    left: 40%;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.button:hover {
+    background-color: #3fb6b2;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.left {
+    /*margin-top: 50px;*/
+    width: 15%;
+}
+
+.column.right {
+    margin-top: 0px;
+    width: 15%;
+}
+
+/* Middle column */
+.column.middle {
+    margin-top: 0px;
+    width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
