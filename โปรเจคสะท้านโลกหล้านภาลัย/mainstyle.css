@@ -1,0 +1,31 @@
+.z{
+  height: 100px;
+}
+.header{
+  background-color: #00aeff;
+}
+.a{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.alogo{
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.b{
+  height: 600px;
+  color: white;
+  margin-bottom: 1px;
+  background-color: lightgray;
+}
+.c{
+  height: 800px;
+  color: white;
+  margin-bottom: 1px;
+  background-color: white;
+
+}
+.search{
+  margin-top: 30px;
+  
+}
